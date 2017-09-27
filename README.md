@@ -50,4 +50,4 @@ $addon_domain = $api->makeRequest('AddonDomain', 'addaddondomain', ['dir' => 'pu
 var_dump($addon_domain);
 ```
 
-For more brief explanation about the cPanel API Modules and its Functions, visit the "[Guide to cPanel API 2](https://documentation.cpanel.net/display/SDK/Guide+to+cPanel+API+2, "cPanel API Documentation")"
+For more brief explanation about the cPanel API Modules and its Functions, visit the "[Guide to cPanel API 2](https://documentation.cpanel.net/display/SDK/Guide+to+cPanel+API+2 "cPanel API Documentation")"
