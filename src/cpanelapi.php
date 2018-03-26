@@ -21,7 +21,7 @@ class cPanelAPI
     //Method - Class Constructor
     public function __construct(array $data){
         if(isset($data['url']) && isset($data['username']) && isset($data['password'])){
-            if(strpos($data['url'], ':2082') || strpos($data['url'], ':2083')){
+            if(strpos($data['url'], 'http://') || strpos($data['url'], 'https://') && strpos($data['url'], ':2082') || strpos($data['url'], ':2083')){
                 $this->url = $data['url'];
                 $this->username = $data['username'];
                 $this->password = $data['password'];
